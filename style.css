@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.header .header__info {
+.header ,
+.header__info {
   font-family: fantasy, cursive;
 }
 
@@ -69,8 +70,6 @@
   transform: rotateZ(0);
 }
 
-
-
 /* Heading */
 .main__title {
   color: #333;
@@ -82,7 +81,6 @@
   text-transform: uppercase;
 }
 
-
 /* Task list */
 .item {
   overflow: hidden;
@@ -93,6 +91,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .item__task {
   width: 56%;
   display: inline-block;
@@ -122,13 +121,9 @@
   color: #333;
 }
 
-
-
 .item__checkbox {
   margin: 0 10px;
 }
-
-
 
 /* Completed */
 
