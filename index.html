@@ -7,19 +7,18 @@
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
     <img src="./eisenhower-matrix.jpg" alt="Eusenhower Matrix">
     <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main">
-    <p id="new-task">
-      <h3 class="main__title">Add Item</h3>
-      
+  </header>
+  <main class="main">
+    <h3 class="main__title">Add Item</h3>
+    <div id="new-task">
       <div class="new-task__wrapper">
         <input id="new-task__input" class="item__task" type="text">
         <button>Add</button>
       </div>
-    </p>
+    </div>
     <h3 class="main__title">Todo</h3>
     <ul id="uncompleted">
       <li class="item">
@@ -47,7 +46,7 @@
           <button class="delete"><img class="button__delete" src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
